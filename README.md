@@ -1,3 +1,92 @@
+<!-- Homepage: Floron Coffee Growers SACCO -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Floron Coffee Growers SACCO</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-green-900 text-white py-6 shadow-md">
+    <div class="max-w-6xl mx-auto flex justify-between items-center px-6">
+      <h1 class="text-3xl font-bold">Floron Coffee Growers SACCO</h1>
+      <nav class="space-x-6 text-lg">
+        <a href="#about" class="hover:text-gold-400">About</a>
+        <a href="#contract" class="hover:text-gold-400">Contract Farming</a>
+        <a href="#contact" class="hover:text-gold-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-green-100 py-20 px-6 text-center">
+    <h2 class="text-4xl font-bold text-green-900 mb-4">Empowering Coffee Farmers in Kisii</h2>
+    <p class="text-xl text-gray-700 max-w-2xl mx-auto mb-6">
+      Through structured partnerships, fair pricing, and quality inputs, we’re helping smallholder farmers grow stronger, together.
+    </p>
+    <a href="#contract" class="bg-gold-500 text-white px-6 py-3 rounded-full shadow-lg text-lg hover:bg-gold-600 transition">
+      Learn About Our Contract Farming
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-6 md:px-16 bg-white">
+    <div class="max-w-5xl mx-auto text-center">
+      <h3 class="text-3xl font-bold text-brown-700 mb-4">About Floron</h3>
+      <p class="text-lg text-gray-700">
+        Floron Coffee Growers SACCO is a farmer-driven cooperative based in Kisii, Kenya. We are committed to enhancing the livelihoods of coffee growers through access to inputs, training, and secure markets. We support ethical, sustainable, and profitable coffee production.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contract Farming Section -->
+  <section id="contract" class="py-20 px-6 bg-green-50">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-3xl font-bold text-green-900 mb-8 text-center">Our Contractual Farming Process</h3>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <div class="p-6 bg-white shadow-lg rounded-xl">
+          <h4 class="text-xl font-semibold text-gold-700 mb-2">Step 1</h4>
+          <p class="text-gray-700">Farmer registration & contract signing with clear terms and benefits.</p>
+        </div>
+        <div class="p-6 bg-white shadow-lg rounded-xl">
+          <h4 class="text-xl font-semibold text-gold-700 mb-2">Step 2</h4>
+          <p class="text-gray-700">Access to inputs, credit, and on-field agronomic support.</p>
+        </div>
+        <div class="p-6 bg-white shadow-lg rounded-xl">
+          <h4 class="text-xl font-semibold text-gold-700 mb-2">Step 3</h4>
+          <p class="text-gray-700">Harvest, quality control, transparent payments, and marketing.</p>
+        </div>
+      </div>
+
+      <div class="text-center mt-10">
+        <a href="/contract-farming" class="text-green-800 underline hover:text-green-600">Read the full process →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-brown-800 text-white py-16 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-4">Get In Touch</h3>
+      <p class="text-lg mb-6">Interested in joining or partnering with Floron? We'd love to hear from you.</p>
+      <p><strong>📍 Office:</strong> [Insert Address]</p>
+      <p><strong>📧 Email:</strong> <a href="mailto:info@floroncoffee.co.ke" class="underline">info@floroncoffee.co.ke</a></p>
+      <p><strong>📞 Phone:</strong> +254 XXX XXX XXX</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-900 text-white py-4 text-center text-sm">
+    &copy; 2025 Floron Coffee Growers SACCO. All rights reserved.
+  </footer>
+
+</body>
+</html>
 <!-- Floron Coffee Growers SACCO - Contractual Farming Page -->
 
 <section class="bg-white py-12 px-6 md:px-16 text-gray-800">
